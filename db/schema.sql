@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS department;
 DROP TABLE IF EXISTS roles;
-DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS employees;
 
 CREATE TABLE department (
   id INTEGER PRIMARY KEY,
@@ -14,7 +14,7 @@ CREATE TABLE roles (
   department_id INTEGER UNSIGNED
 );
 
-CREATE TABLE employee (
+CREATE TABLE employees (
   id INTEGER PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
