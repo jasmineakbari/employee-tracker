@@ -27,7 +27,7 @@ const promptUser = () => {
                         host: 'localhost',
                         // Your MySQL username
                         user: 'root',
-                        password: '',
+                        password: 'password',
                         database: 'employees'
                     });
 
@@ -39,7 +39,7 @@ const promptUser = () => {
 
                     // function to view employees
                     displayEmps = () => {
-                        connection.query('SELECT * FROM employees', function(err, res) {
+                        connection.query('SELECT * FROM employee', function(err, res) {
                             if (err) throw err;
                             console.table(res);
                             promptUser();
