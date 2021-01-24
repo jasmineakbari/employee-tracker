@@ -16,10 +16,10 @@ const promptUser = () => {
         .then((selection) => {
             switch (selection['options']) {
                 case 'View Departments':
-                    viewDepts();
+                    displayDepts();
                     break;
                 case 'View all Roles':
-                    viewRoles();
+                    displayRoles();
                     break;
                 case 'View current Employees':
                     displayEmps();
@@ -42,7 +42,7 @@ const promptUser = () => {
 
 module.exports = { promptUser }
 const { displayEmps, addEmp, editEmp } = require('./lib/employees');
-const { viewDepts, addDept } = require('./lib/departments');
-const { viewRoles, addRole } = require('./lib/roles');
+const { displayDepts, addDept } = require('./lib/departments');
+const { displayRoles, addRole } = require('./lib/roles');
 
 promptUser();
