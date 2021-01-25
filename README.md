@@ -17,7 +17,7 @@ Please see the walkthrough video of application in action for your reference. [W
 
 Here are some helpful images to get you through to start using the tracker. Make sure you have node.js, mysql and inquirer available for use download packages as necessary:
 
-1. Clone the repository to your machine.
+1. Clone the repository to your machine.</br>
 ![STEP1](./assets/images/step1.PNG)
 
 2. Sign in to mysql by type "mysql -u root -p" the password is: password.
