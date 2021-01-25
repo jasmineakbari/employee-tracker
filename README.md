@@ -18,22 +18,22 @@ Please see the walkthrough video of application in action for your reference. [W
 Here are some helpful images to get you through to start using the tracker. Make sure you have node.js, mysql and inquirer available for use download packages as necessary:
 
 1. Clone the repository to your machine.
-![STEP1](./assets/images/step1.png)
+![STEP1](./assets/images/step1.PNG)
 
 2. Sign in to mysql by type "mysql -u root -p" the password is: password.
-![STEP2](./assets/images/step2.png)
+![STEP2](./assets/images/step2.PNG)
 
 3. Type "source db/schema.sql" to create the table.
-![STEP3](./assets/images/step3.png)
+![STEP3](./assets/images/step3.PNG)
 
 4. Type "source db/seeds.sql" to populate information to the table.
-![STEP4](./assets/images/step4.png)
+![STEP4](./assets/images/step4.PNG)
 
 5. Type "quit" to exit mysql prompts.
-![STEP5](./assets/images/step5.png)
+![STEP5](./assets/images/step5.PNG)
 
 6. Type "node server" in order to initiate employee tracker prompts.
-![STEP6](./assets/images/step6.png)
+![STEP6](./assets/images/step6.PNG)
 
 
 ## Contributions
